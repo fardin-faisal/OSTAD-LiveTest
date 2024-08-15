@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+  </head>
+  <body>
+    <!--Header with Navbar-->
+    <header>
+      <div class="container">
+        <div class="row">
+          <nav
+            class="navbar navbar-expand-lg shadow bg-dark fixed-top"
+            data-bs-theme="dark"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Bloggy</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarid"
+                aria-controls="navbarid"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Health</a></li>
+                      <li><a class="dropdown-item" href="#">Nature</a></li>
+                      <li><a class="dropdown-item" href="#">Technology</a></li>
+                      <li><a class="dropdown-item" href="#">Education</a></li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Random</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--Main Content-->
+    <section class="bg bg-danger-subtle mt-5 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>What is Artificial Intelligence?</h2>
+            <span style="font-weight: bold">
+              Posted on August 15, 2024 by Fardin.
+            </span>
+            <hr />
+            <p>
+              Artificial intelligence is the science of making machines that can
+              think like humans. It can do things that are considered "smart."
+              AI technology can process large amounts of data in ways, unlike
+              humans. The goal for AI is to be able to do things such as
+              recognize patterns, make decisions, and judge like humans.
+              <br />
+            </p>
+            <img
+              src="https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp"
+              alt="BlogImage"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <p>
+              AI is neither inherently good nor bad. It is a tool that can be
+              used for both beneficial and harmful purposes, depending on how it
+              is developed and used. It is important to approach AI with caution
+              and responsibility, ensuring that it is developed and used in an
+              ethical and transparent manner.
+            </p>
+            <!--Table-->
+            <p style="font-weight: bold">
+              Below is a table showing some data:-
+            </p>
+            <table class="table table-bordered table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Type of AI</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Examples</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Narrow AI</td>
+                  <td>
+                    Also known as Weak AI, it is designed to perform a narrow
+                    task, such as facial recognition or internet searches.
+                  </td>
+                  <td>Siri, Google Search, Recommendation Systems</td>
+                </tr>
+                <tr>
+                  <td>General AI</td>
+                  <td>
+                    Also known as Strong AI, it is a theoretical form of AI
+                    where a machine would have an intelligence equal to humans,
+                    with the ability to perform any intellectual task.
+                  </td>
+                  <td>Currently, only theoretical; no examples yet</td>
+                </tr>
+                <tr>
+                  <td>Superintelligent AI</td>
+                  <td>
+                    This AI surpasses human intelligence and can perform tasks
+                    better than humans. It remains a speculative concept.
+                  </td>
+                  <td>Theoretical; often depicted in science fiction</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Another Section-->
+    <section class="container mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div>
+              <h2 style="color: brown">More Blogs:</h2>
+              <hr />
+              <h3>Health Is Wealth!</h3>
+              <p>
+                <span>Posted on August 10, 2024 by Fardin</span>
+              </p>
+              <p>
+                Health is the cornerstone of a fulfilling life, enabling us to
+                pursue our dreams with energy and vigor. Prioritizing physical
+                and mental well-being is crucial for a balanced existence.
+              </p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Read More</a>
+            </div>
+            <div>
+              <h3>Nature Is Beautiful!</h3>
+              <p>
+                <span>Posted on August 13, 2024 by Fardin</span>
+              </p>
+              <p>
+                Nature is the essence of our planet, providing us with the air
+                we breathe and the beauty that surrounds us. Preserving it is
+                essential for the well-being of all living beings.
+              </p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Read More</a>
+            </div>
+            <div>
+              <h3>Why Need Education?</h3>
+              <p>
+                <span>Posted on August 14, 2024 by Fardin</span>
+              </p>
+              <p>
+                Education is the foundation of progress, empowering individuals
+                with knowledge and skills to shape a better future. It opens
+                doors to opportunities and fosters innovation.
+              </p>
+              <a href="#" class="btn btn-outline-danger btn-sm">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4 border bg bg-success-subtle text-center">
+            <h2>About Me</h2>
+            <p>
+              Hello! I'm the author of this blog website. I write about various
+              topics related to technology, nature, health, education and more.
+              Stay tuned for my latest posts!
+            </p>
+
+            <hr />
+
+            <h2>Categories</h2>
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">Technology</a></li>
+              <li class="list-group-item"><a href="#">Health</a></li>
+              <li class="list-group-item"><a href="#">Nature</a></li>
+              <li class="list-group-item"><a href="#">Education</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer text-center mt-5 p-3 bg-dark text-light">
+      <p>&copy; 2024 Bloggy. All rights reserved.</p>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
